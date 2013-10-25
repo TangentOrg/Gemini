@@ -1,0 +1,136 @@
+#!/bin/sh
+
+if [ $PLATFORM = "Linux" ]
+then
+    LIBARGS="-shared -Wl,-soname,gemini.so"
+    CC=gcc
+elif [ $PLATFORM = "SunOS" ]
+then
+    LIBARGS="-G"
+    CC=cc
+else
+    echo PLATFORM not set
+    exit
+fi
+
+$CC $LIBARGS -o gemini.so \
+api/dsmarea.o \
+api/dsmblob.o \
+api/dsmcon.o \
+api/dsmcursr.o \
+api/dsmindex.o \
+api/dsmobj.o \
+api/dsmrec.o \
+api/dsmseq.o \
+api/dsmshutdn.o \
+api/dsmsrv.o \
+api/dsmtable.o \
+api/dsmtrans.o \
+api/dsmuser.o \
+db/bkcheck.o \
+db/bkcrashtest.o \
+db/bkio.o \
+db/bkiolk.o \
+db/bkiotop.o \
+db/bklog.o \
+db/bkopen.o \
+db/bkrec.o \
+db/bkrepl.o \
+db/bksubs.o \
+db/bmapw.o \
+db/bmbuf.o \
+db/cx.o \
+db/cxaux.o \
+db/cxblock.o \
+db/cxcompact.o \
+db/cxdo.o \
+db/cxfil.o \
+db/cxgen.o \
+db/cxkill.o \
+db/cxky.o \
+db/cxkyut.o \
+db/cxmove.o \
+db/cxnxt.o \
+db/cxtag.o \
+db/cxundo.o \
+db/db.o \
+db/dbarea.o \
+db/dbblob.o \
+db/dbclose.o \
+db/dbindex.o \
+db/dblang.o \
+db/dblksch.o \
+db/dbobject.o \
+db/dbopen.o \
+db/dbquiet.o \
+db/dbrecord.o \
+db/dbtable.o \
+db/dbuser.o \
+db/dbwdog.o \
+db/geminifromkey.o \
+db/geminikey.o \
+db/keysvc.o \
+db/keyut.o \
+db/ky.o \
+db/kyut.o \
+db/latctl.o \
+db/lkmu.o \
+db/lkrecd.o \
+db/om.o \
+db/omundo.o \
+db/rec.o \
+db/recformt.o \
+db/recget.o \
+db/recput.o \
+db/rlai.o \
+db/rlaiovl.o \
+db/rlaoff.o \
+db/rlcl.o \
+db/rlmem.o \
+db/rlnote.o \
+db/rlrej.o \
+db/rlrw.o \
+db/rlset.o \
+db/rltl.o \
+db/rm.o \
+db/rmdoundo.o \
+db/semadm.o \
+db/semmgr.o \
+db/seqdundo.o \
+db/seqgen.o \
+db/shm.o \
+db/shmatt.o \
+db/shmcr.o \
+db/shmdel.o \
+db/shmpid.o \
+db/shmptoq.o \
+db/shmsiz.o \
+db/stm.o \
+db/tm.o \
+db/tmdoundo.o \
+db/tstset.o \
+dbut/utbuff.o \
+dbut/utchr.o \
+dbut/utcore.o \
+dbut/utcrc.o \
+dbut/utctlc.o \
+dbut/utdate.o \
+dbut/utenv.o \
+dbut/utf.o \
+dbut/utfilesys.o \
+dbut/utlru.o \
+dbut/utmem.o \
+dbut/utmsg.o \
+dbut/utosclose.o \
+dbut/utosopen.o \
+dbut/utosrw.o \
+dbut/utstack.o \
+dbut/utstring.o \
+dbut/utsysdep.o \
+dbut/uttime.o \
+dbut/uttimer.o \
+dbut/utype.o \
+vst/cxvsi.o \
+vst/rmvst.o 
+
+ls -l gemini.so

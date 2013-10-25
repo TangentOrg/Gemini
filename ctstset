@@ -1,0 +1,104 @@
+#!/bin/sh 
+# Copyright (C) 2001 NuSphere Corporation, All Rights Reserved.
+# 
+# This program is open source software.  You may not copy or use this 
+# file, in either source code or executable form, except in compliance 
+# with the NuSphere Public License.  You can redistribute it and/or 
+# modify it under the terms of the NuSphere Public License as published 
+# by the NuSphere Corporation; either version 2 of the License, or 
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# NuSphere Public License for more details.
+# 
+# You should have received a copy of the NuSphere Public License
+# along with this program; if not, write to NuSphere Corporation
+# 14 Oak Park, Bedford, MA 01730.
+
+# Set PROGram name
+PROG=`basename $0`
+########################################################################
+#+ NAME
+#+      - compile tst & set latch code
+#-
+########################################################################
+
+# machine dependent compile of tstset
+IDIRS="-I./incl -I./inclprv -I.."
+echo "$PROG: Compile tstset.cc --> tstset.[c|s] --> tstset.o"
+case $MACHINE in
+    alphaosf)
+            as -o tstset.o -g -cpp -DALPHAOSF $IDIRS tstset.cc
+            ;;
+    nt)
+            sed -e '1,/?????/d' < tstset.cc > tstset.c
+            c tstset.c
+            ;;
+    nta)
+            sed -e '1,/?????/d' < tstset.cc > tstset.axp
+            asaxp /Fotstset.obj /DWINNT_ALPHA tstset.axp
+            ;;
+    mips)
+            /lib/cpp -P -DMIPSTAS $IDIRS tstset.cc |\
+            sed -e '1,/?????/d' >tstset.c
+            c tstset.c
+            ;;
+    hpux)
+            /opt/langtools/lbin/cpp -P $IDIRS tstset.cc |\
+            sed -e '1,/?????/d' >tstset.s
+	    case $BITS in
+		64)
+		    $CC $IDIRS -O -c tstset.s +DA2.0W +DD64
+		    ;;
+		32)
+	            $CC $IDIRS -O -c tstset.s
+		    ;;
+		*)
+	            $CC $IDIRS -O -c tstset.s
+		    ;;
+	    esac
+            ;;
+
+    linuxx86)
+            /lib/cpp -P $IDIRS tstset.cc |\
+                    sed -e '1,/?????/d' >tstset.s
+            /usr/bin/as tstset.s -o tstset.o
+            ;;
+
+    solaris)
+            /usr/ccs/lib/cpp -P $IDIRS tstset.cc |\
+            sed -e '1,/?????/d' >tstset.s
+            /usr/ccs/bin/as tstset.s
+            ;;
+    unix486v4|solarisx86)
+            case "`tellos display=name`" in
+	    solarisx86)
+		/usr/ccs/lib/cpp -P $IDIRS tstset.cc |\
+		sed -e '1,/?????/d' >tstset.s
+		/usr/ccs/bin/as tstset.s
+		;;
+	    *)
+		/lib/cpp -P $IDIRS tstset.cc |\
+		sed -e '1,/?????/d' >tstset.s
+		as -o tstset.o tstset.s
+		;;
+	    esac
+            ;;
+    sco)
+            /lib/cpp -P $IDIRS tstset.cc |\
+            sed -e '1,/?????/d' >tstset.s
+            as -belf -T -o tstset.o tstset.s
+            ;;
+    *)
+            /lib/cpp -PC $IDIRS tstset.cc |\
+            sed -e '1,/?????/d' | grep -v "^#" >tstset.s
+            as -o tstset.o tstset.s
+            ;;
+esac
+
+ls -l tstset.*
+
+# END script
+

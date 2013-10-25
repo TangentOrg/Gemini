@@ -1,0 +1,19 @@
+
+Gemini is a portable, scalable storage update and retreival system.
+The published public interface to the Gemini engine is found in the file
+incl/dsmpub.h.
+
+To compile Gemini:
+On Unix:
+  run the configure script
+  make
+    The result will be a set of 4 libraries in the libs directory
+    that need to be included in the program that uses the engine.
+    If you want to make a shared library for Gemini, then run the
+  make_so script.
+
+On Windows:
+  Use Microsoft Visual Studio and the gemini.dsw file to build
+  the gemini.dll library
+
+

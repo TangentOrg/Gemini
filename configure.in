@@ -1,0 +1,50 @@
+# Process this file with autoconf to produce a configure script
+AC_INIT(./api/dsmuser.c)
+AC_CANONICAL_SYSTEM
+AM_CONFIG_HEADER(gem_config.h)
+AM_INIT_AUTOMAKE(gemini, 1.0)
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_RANLIB
+# AC_CHECK_SIZEOF(int, 4)
+# AC_C_INLINE
+# AC_C_BIGENDIAN
+
+AC_DEFINE(PSC_ANSI_COMPILER, 0)
+AC_DEFINE(PSC_ANSI_LEVEL, 0)
+AC_DEFINE(ASSERT_ON, 0)
+AC_DEFINE(STERILIZE, 0)
+AC_DEFINE(OPSYS, UNIX)
+AC_DEFINE(_FILE_OFFSET_BITS, 64)
+
+case "$target_os" in
+  solaris*)
+    AC_DEFINE(SOLARIS, 1)
+    AC_DEFINE(SUN45, 1)
+    ;;
+  *linux*)
+    AC_DEFINE(LINUX, 1)
+    AC_DEFINE(LINUXX86, 1)
+    ;;
+esac
+
+echo "checking to see if Gemini is part of a package"
+if test -f ../config.h 
+then
+    PARENT_PACKAGE=`grep PACKAGE ../config.h | awk '{ print $3 }' | sed -e s,\",,g`
+    if test $PARENT_PACKAGE = "mysql"
+    then
+        echo "Gemini is part of the mysql package"
+        echo "checking for the correct mysql version"
+        PARENT_VERSION=`grep " VERSION " ../config.h | awk '{ print $3 }' | sed -e s,\",,g`
+        if [ "$PARENT_VERSION" != "3.23.44" -o "$PARENT_VERSION" != "4.0.0-alpha" ]
+        then
+            echo "This version of Gemini is for use with mySQL 3.23.44 or 4.0.0-alpha"
+            exit 2
+        fi
+        echo "mysql version $PARENT_VERSION is ok"
+    fi
+fi
+
+AC_OUTPUT(Makefile api/Makefile db/Makefile dbut/Makefile vst/Makefile \
+ msgs/Makefile)

@@ -1,0 +1,5204 @@
+<MSGNUM=5000
+MSGID=biFTL019
+PROID=651
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Index reconstruction utility was aborted. Rerun it to completion.
+>
+<MSGNUM=5001
+MSGID=bkFTL001
+PROID=210
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Attempt to read block %l<number> which does not exist.
+>
+<MSGNUM=5002
+MSGID=bkFTL003
+PROID=759
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=No blocks on free chain number <number>%i.
+>
+<MSGNUM=5003
+MSGID=bkFTL004
+PROID=355
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Database block <nbr>%D has incorrect recid: <nbr>%D.
+>
+<MSGNUM=5004
+MSGID=bkFTL005
+PROID=419
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkfradd: block is already on chain %t<number>.
+>
+<MSGNUM=5005
+MSGID=bkFTL006
+PROID=144
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Your database version doesn't match the Gemini version.
+>
+<MSGNUM=5006
+MSGID=bkFTL008
+PROID=6071
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=error reading file %s<file-name>, ret = %d"
+>
+<MSGNUM=5007
+MSGID=bkFTL009
+PROID=331
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=The <dbname>%s.lk file is invalid.
+>
+<MSGNUM=5008
+MSGID=bkFTL016
+PROID=611
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkread: missing bkflsx call
+>
+<MSGNUM=5009
+MSGID=bkFTL017
+PROID=612
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Possible file truncation, <block-offset>%l too big for database.
+>
+<MSGNUM=5010
+MSGID=bkFTL018
+PROID=653
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid use of the Gemini demo database.
+>
+<MSGNUM=5011
+MSGID=bkFTL019
+PROID=6072
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=error writing, file = %s<file-name>, ret = %d<return-value>
+>
+<MSGNUM=5012
+MSGID=bkFTL020
+PROID=6073
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to write extent header, file = %s<file-name>, ret = %d<return-value>.
+>
+<MSGNUM=5013
+MSGID=bkFTL021
+PROID=3627
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=buffer stack underflow dbkey %D<num>.
+>
+<MSGNUM=5014
+MSGID=bkFTL022
+PROID=645
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkwrite: bktbl dbk <dbk>%D not equal to bkbuf dbk <dbk>%D.
+>
+<MSGNUM=5015
+MSGID=bkFTL023
+PROID=6074
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read extent header, file = %s<file-name>, ret = %d<return-value>.
+>
+<MSGNUM=5016
+MSGID=bkFTL024
+PROID=647
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=bkset: Extent <file-name>%s is below size <file-size>%D.
+>
+<MSGNUM=5017
+MSGID=bkFTL025
+PROID=650
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** bkgetb: out of storage.
+>
+<MSGNUM=5018
+MSGID=bkFTL027
+PROID=3628
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkpopbs: buffer for dbkey %D<num> not found.
+>
+<MSGNUM=5019
+MSGID=bkFTL028
+PROID=762
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkaddr called with negative blkaddr: <number>%l
+>
+<MSGNUM=5020
+MSGID=bkFTL029
+PROID=761
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkwrite for .bi block with negative addr: <number>%l
+>
+<MSGNUM=5021
+MSGID=bkFTL030
+PROID=3629
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Block %D<num> use count underflow %i.
+>
+<MSGNUM=5022
+MSGID=bkFTL032
+PROID=577
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkOpenFilesBuffered: Invalid file table
+>
+<MSGNUM=5023
+MSGID=bkFTL033
+PROID=1040
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Not enough database buffers (gemini_buffer_cache).
+>
+<MSGNUM=5024
+MSGID=bkFTL035
+PROID=581
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkVerifyExtentHeader: Invalid file table
+>
+<MSGNUM=5025
+MSGID=bkFTL039
+PROID=4133
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Length requested for a backup note is too large, requested notelength is <NOTELENGTH>%d"
+>
+<MSGNUM=5026
+MSGID=bkFTL041
+PROID=7113
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Error getting first extent for area %d, error = %d.
+>
+<MSGNUM=5027
+MSGID=bkFTL042
+PROID=7114
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't allocate storage for area descriptor.
+>
+<MSGNUM=5028
+MSGID=bkFTL043
+PROID=3632
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkburls: invalid block state %i<code>.
+>
+<MSGNUM=5029
+MSGID=bkFTL044
+PROID=1051
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkrlsbuf: cannot release buffer lock, use count <count>%l is invalid.
+>
+<MSGNUM=5030
+MSGID=bkFTL045
+PROID=7115
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Could not determine size of file %s<filename>.
+>
+<MSGNUM=5031
+MSGID=bkFTL046
+PROID=1111
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkfilc during resyncing
+>
+<MSGNUM=5032
+MSGID=bkFTL047
+PROID=3633
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkfndblk: dbkey %D<num> not locked.
+>
+<MSGNUM=5033
+MSGID=bkFTL048
+PROID=3634
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkupgrade: dbkey %D<num> not intent locked.
+>
+<MSGNUM=5034
+MSGID=bkFTL052
+PROID=1119
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=wrong RL blk, read <dbkey>%D from <dbkey>%D
+>
+<MSGNUM=5035
+MSGID=bkFTL053
+PROID=1120
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=wrong RL blk, write <dbkey>%D into <dbkey>%D
+>
+<MSGNUM=5036
+MSGID=bkFTL054
+PROID=3635
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=block %D<num> not in hash chain.
+>
+<MSGNUM=5037
+MSGID=bkFTL055
+PROID=3636
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bksteal: Attempt to read block %D<block-num> above high water mark %D<block-num2>.
+>
+<MSGNUM=5038
+MSGID=bkFTL056
+PROID=1124
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=wrong dbkey in block. Found <dbkey>%D, should be <dbkey2>%D
+>
+<MSGNUM=5039
+MSGID=bkFTL057
+PROID=7116
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Extent create failed reading control area extent header.
+>
+<MSGNUM=5040
+MSGID=bkFTL058
+PROID=7117
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Error allocating block buffer memory.
+>
+<MSGNUM=5041
+MSGID=bkFTL059
+PROID=3637
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkloc: invalid state %d<action> %d<code>.
+>
+<MSGNUM=5042
+MSGID=bkFTL060
+PROID=7118
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Couldn't read extent header for file %s<filename>.
+>
+<MSGNUM=5043
+MSGID=bkFTL061
+PROID=3639
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkmod: block %D<number> without EXCLUSIVE lock.
+>
+<MSGNUM=5044
+MSGID=bkFTL063
+PROID=7119
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid file length for %l for file %s<filename>.
+>
+<MSGNUM=5045
+MSGID=bkFTL065
+PROID=3643
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG= invalid file type %i<code>.
+>
+<MSGNUM=5046
+MSGID=bkFTL066
+PROID=3644
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ai header corrupt, blk %X<num>, reason %i<num>, addr %X<ptr>.
+>
+<MSGNUM=5047
+MSGID=bkFTL067
+PROID=3645
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=bkwrite: write to disk failed errno %i<num>.
+>
+<MSGNUM=5048
+MSGID=bkFTL073
+PROID=4519
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=extend buffer %l<buffer> smaller than blocksize %l<buffer>.
+>
+<MSGNUM=5049
+MSGID=bkFTL075
+PROID=4524
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=File %s<file-name> too small %l<length>, blocksize %l<blocksize> extend failed."
+>
+<MSGNUM=5050
+MSGID=bkFTL076
+PROID=7120
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Couldn't write extent header for file %s<filename>.
+>
+<MSGNUM=5051
+MSGID=bkFTL077
+PROID=7121
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Error writing area block for file %s<filename>.
+>
+<MSGNUM=5052
+MSGID=bkFTL078
+PROID=7122
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Error writing object block for file %s<filename>.
+>
+<MSGNUM=5053
+MSGID=bkFTL079
+PROID=7123
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Error writing ai header block for file %s<filename>.
+>
+<MSGNUM=5054
+MSGID=bkFTL080
+PROID=7124
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read extent header for file %s<filename>.
+>
+<MSGNUM=5055
+MSGID=bkFTL081
+PROID=7125
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=File %s<filename> exists but does not have expected time stamps.
+>
+<MSGNUM=5056
+MSGID=bkFTL082
+PROID=7126
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't allocate storage to add extent.
+>
+<MSGNUM=5057
+MSGID=bkFTL083
+PROID=7127
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't allocate space for new extent structures.
+>
+<MSGNUM=5058
+MSGID=bkFTL084
+PROID=8897
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to extend database within area %s<pareaName>.
+>
+<MSGNUM=5059
+MSGID=bkFTL085
+PROID=9377
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to truncate extent header, file = %s<file-name>, ret = %d<return-value>.
+>
+<MSGNUM=5060
+MSGID=bkMSG002
+PROID=43
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Cannot find or open file <file-name>%s, errno = <number>%i.
+>
+<MSGNUM=5061
+MSGID=bkMSG003
+PROID=44
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Database has the wrong version number. (db: <value>%d, pro: <value>%i).
+>
+<MSGNUM=5062
+MSGID=bkMSG005
+PROID=263
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The database <file-name>%s is in use in single-user mode.
+>
+<MSGNUM=5063
+MSGID=bkMSG006
+PROID=276
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The database <file-name>%s is in use in multi-user mode.
+>
+<MSGNUM=5064
+MSGID=bkMSG007
+PROID=528
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The file <filename>%s exists.  This indicates one of:
+>
+<MSGNUM=5065
+MSGID=bkMSG008
+PROID=529
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=  - The database is in use by another user.
+>
+<MSGNUM=5066
+MSGID=bkMSG009
+PROID=530
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=  - The last session terminated abnormally.
+>
+<MSGNUM=5067
+MSGID=bkMSG010
+PROID=531
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=If you are CERTAIN the database is not in use by any user or server,
+>
+<MSGNUM=5068
+MSGID=bkMSG011
+PROID=532
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=simply erase <filename>%s and try again.
+>
+<MSGNUM=5069
+MSGID=bkMSG013
+PROID=1486
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database is damaged, see documentation.
+>
+<MSGNUM=5070
+MSGID=bkMSG014
+PROID=598
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=<file-name>%s is a copy of <file-name>%s. Database cannot be opened.
+>
+<MSGNUM=5071
+MSGID=bkMSG017
+PROID=605
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Probable backup/restore error.
+>
+<MSGNUM=5072
+MSGID=bkMSG019
+PROID=1609
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The database has the wrong version for database conversion.
+>
+<MSGNUM=5073
+MSGID=bkMSG029
+PROID=726
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=This is the last time you can use this database.
+>
+<MSGNUM=5074
+MSGID=bkMSG030
+PROID=727
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Use the dictionary to dump any data you want to save.
+>
+<MSGNUM=5075
+MSGID=bkMSG031
+PROID=728
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You may use Gemini on this database %d<number> more time(s).
+>
+<MSGNUM=5076
+MSGID=bkMSG032
+PROID=6070
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read master block, file = %s<file-name>, errno = %d<errno>.
+>
+<MSGNUM=5077
+MSGID=bkMSG034
+PROID=2226
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=File <filename>%s is on a remote system
+>
+<MSGNUM=5078
+MSGID=bkMSG038
+PROID=2227
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database integrity CANNOT be guaranteed for this session.
+>
+<MSGNUM=5079
+MSGID=bkMSG039
+PROID=3646
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkxtn: write error, file %s<file-name> errno: %i<number>.
+>
+<MSGNUM=5080
+MSGID=bkMSG040
+PROID=4520
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Trimed file %s<file-name> for blocksize %l<num> bytes old:%l<num> new:%l<num>.
+>
+<MSGNUM=5081
+MSGID=bkMSG041
+PROID=4521
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid blocksize %d<blocksize> in database %s<dbname>.
+>
+<MSGNUM=5082
+MSGID=bkMSG042
+PROID=4522
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** file %s<file> is not compatible with blocksize %d<blocksize> bytes.
+>
+<MSGNUM=5083
+MSGID=bkMSG043
+PROID=6079
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkioWrite:Bad address passed address = %X<address>
+>
+<MSGNUM=5084
+MSGID=bkMSG044
+PROID=6081
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkioWrite: lseek error %d<error number> on file %n<file> at %l<address>, file %s<file-name>.
+>
+<MSGNUM=5085
+MSGID=bkMSG045
+PROID=6082
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkioRead: lseek error %d<error number> on file %n<file> at %l<address>.
+>
+<MSGNUM=5086
+MSGID=bkMSG049
+PROID=6086
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=%s<function>: Bad file descriptor was used during %s<system call>, fd  %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5087
+MSGID=bkMSG050
+PROID=6088
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=%s<function>: Invalid argument %s<system call>, fd %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5088
+MSGID=bkMSG051
+PROID=6089
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<function>:Disk quota exceeded during %s<system call>, fd %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5089
+MSGID=bkMSG052
+PROID=6090
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<function>:Maximum file size exceeded during %s<system call>, fd %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5090
+MSGID=bkMSG053
+PROID=6091
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<function>:Insufficient disk space during %s<system call>, fd %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5091
+MSGID=bkMSG054
+PROID=6092
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<function>:Unknown O/S error during %s<system call>, errno %d<error  number>, fd %d<file descriptor>, len %l<bytes>, offset %l<bytes>, file %s<file-name>.
+>
+<MSGNUM=5092
+MSGID=bkMSG056
+PROID=6109
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read extent header, ret = %d<return-value> file = %s<file-name>.
+>
+<MSGNUM=5093
+MSGID=bkMSG058
+PROID=266
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Your database version doesn't match the Gemini version.
+>
+<MSGNUM=5094
+MSGID=bkMSG059
+PROID=271
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You have exceeded the maximum allowed demo database runs.
+>
+<MSGNUM=5095
+MSGID=bkMSG060
+PROID=519
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkioWrite: I/O table not initialized, index %d<num>.
+>
+<MSGNUM=5096
+MSGID=bkMSG061
+PROID=520
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkioWrite: Unknown I/O mode specified %d<mode>, file %s<file name>.
+>
+<MSGNUM=5097
+MSGID=bkMSG062
+PROID=526
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkioRead: I/O table not initialized index %d<num>.
+>
+<MSGNUM=5098
+MSGID=bkMSG063
+PROID=527
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkioRead: Unknown I/O mode specified %d<num>, file %s<file name>.
+>
+<MSGNUM=5099
+MSGID=bkMSG064
+PROID=533
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=I/O table not initialized.
+>
+<MSGNUM=5100
+MSGID=bkMSG065
+PROID=534
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid I/O mode specified requested %d<mode>.
+>
+<MSGNUM=5101
+MSGID=bkMSG066
+PROID=539
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to write extent header, ret = %d<return-value> file = %s<file-name>.
+>
+<MSGNUM=5102
+MSGID=bkMSG068
+PROID=548
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=loadFileType: stget allocation failure
+>
+<MSGNUM=5103
+MSGID=bkMSG069
+PROID=561
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=bkLoadFileTable: utmalloc allocation failure
+>
+<MSGNUM=5104
+MSGID=bkMSG071
+PROID=625
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to read extent header errno = %d<errno> file = %s<file-name>.
+>
+<MSGNUM=5105
+MSGID=bkMSG073
+PROID=1152
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=read wrong dbkey at offset <offset>%l in file <file>%s %r  found <dbkey>%D, expected <dbkey>%D, retrying.
+>
+<MSGNUM=5106
+MSGID=bkMSG074
+PROID=2329
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid block <block>%l for file <file-name>%s, max is <max-block>%l
+>
+<MSGNUM=5107
+MSGID=bkMSG093
+PROID=2607
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=stat() failed on both %s<file> and %s<file>, errno = %d<num>.
+>
+<MSGNUM=5108
+MSGID=bkMSG095
+PROID=3511
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid FD on seek, ret = %d<ret-value> file = %s<file-name>.
+>
+<MSGNUM=5109
+MSGID=bkMSG096
+PROID=3543
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read file = %s<file-name>, errno = %d<error number>.
+>
+<MSGNUM=5110
+MSGID=bkMSG099
+PROID=3707
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error writing file %s<file-name>, errno = %d<errno>.
+>
+<MSGNUM=5111
+MSGID=bkMSG100
+PROID=4029
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error opening file %s<file-name>, errno = %d<errno>.
+>
+<MSGNUM=5112
+MSGID=bkMSG101
+PROID=4191
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error reading %s<buffer> out of %s<file-name>, errno = %d<errno>.
+>
+<MSGNUM=5113
+MSGID=bkMSG102
+PROID=4192
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<filename>: HOSTNAME is %s<hostname>, expected %s<hostname>.
+>
+<MSGNUM=5114
+MSGID=bkMSG103
+PROID=4193
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<filename>: PID is %l<pid>, expected %l<pid>.
+>
+<MSGNUM=5115
+MSGID=bkMSG104
+PROID=4194
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Broker disappeared, updating %s<file-name>.lk file.
+>
+<MSGNUM=5116
+MSGID=bkMSG105
+PROID=4195
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<file-name> is missing, shutting down...
+>
+<MSGNUM=5117
+MSGID=bkMSG106
+PROID=4196
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<file-name> is not a valid .lk file for this server.
+>
+<MSGNUM=5118
+MSGID=bkMSG107
+PROID=4229
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Corrupt block detected when reading from database.
+>
+<MSGNUM=5119
+MSGID=bkMSG108
+PROID=4230
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Corrupt block detected when attempting to write a block.
+>
+<MSGNUM=5120
+MSGID=bkMSG109
+PROID=4231
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Corrupt block detected when attempting to modify a block.
+>
+<MSGNUM=5121
+MSGID=bkMSG110
+PROID=4232
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Corrupt block detected when attempting to release a buffer.
+>
+<MSGNUM=5122
+MSGID=bkMSG115
+PROID=5338
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to get file descriptor for %s<filename>
+>
+<MSGNUM=5123
+MSGID=bkMSG116
+PROID=5436
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to store shared memory and semaphore identifiers
+>
+<MSGNUM=5124
+MSGID=bkMSG131
+PROID=6265
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Unable to lock the .lk file <file-name>%s, errno = <number>%i
+>
+<MSGNUM=5125
+MSGID=bkMSG132
+PROID=6266
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Found lock file <file-name>%s unlocked.
+>
+<MSGNUM=5126
+MSGID=bkMSG137
+PROID=7104
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkOpenControlArea error.
+>
+<MSGNUM=5127
+MSGID=bkMSG138
+PROID=7105
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database must contain a Primary Recovery Area.
+>
+<MSGNUM=5128
+MSGID=bkMSG139
+PROID=7106
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database must contain at least one Primary Recovery extent.
+>
+<MSGNUM=5129
+MSGID=bkMSG141
+PROID=7108
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkForEachArea: buffer too small - need %l.
+>
+<MSGNUM=5130
+MSGID=bkMSG142
+PROID=7112
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bkForEachExtent: buffer too small - need %l.
+>
+<MSGNUM=5131
+MSGID=bkMSG144
+PROID=8248
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=An error occurred during area truncation. rtc %l.
+>
+<MSGNUM=5132
+MSGID=bkMSG145
+PROID=8832
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Record %d<record num> in area %l<area num> not found.
+>
+<MSGNUM=5133
+MSGID=bkMSG146
+PROID=8833
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Truncating area %s<pareaName>.
+>
+<MSGNUM=5134
+MSGID=bkMSG147
+PROID=8898
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Attempted to exceed 2GB limit with file %s<pname>.
+>
+<MSGNUM=5135
+MSGID=bkMSG148
+PROID=9212
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Extent <file-name>%s has the wrong creation date <time-stamp>%s,
+>
+<MSGNUM=5136
+MSGID=bkMSG149
+PROID=9213
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Extent <file-name>%s has a different last opened date <timestamp>%s,
+>
+<MSGNUM=5137
+MSGID=bkMSG150
+PROID=9214
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Creation date mismatch.
+>
+<MSGNUM=5138
+MSGID=bkMSG151
+PROID=9215
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Last open date mismatch.
+>
+<MSGNUM=5139
+MSGID=bkMSG152
+PROID=9216
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Control Area has a creation date of <time-stamp>%s.
+>
+<MSGNUM=5140
+MSGID=bkMSG153
+PROID=9217
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Control Area has a last open date of <time-stamp>%s.
+>
+<MSGNUM=5141
+MSGID=cxFTL001
+PROID=2669
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid size of an index key - %i<key-size>
+>
+<MSGNUM=5142
+MSGID=cxFTL002
+PROID=2670
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid size of an index entry - %i<entry-size>
+>
+<MSGNUM=5143
+MSGID=cxFTL003
+PROID=2671
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid B-tree level
+>
+<MSGNUM=5144
+MSGID=cxFTL004
+PROID=2672
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Wrong entry deleted from non-leaf index block
+>
+<MSGNUM=5145
+MSGID=cxFTL005
+PROID=2673
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG= invalid rl note
+>
+<MSGNUM=5146
+MSGID=cxFTL008
+PROID=638
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=findDbKey: called to search a leaf block
+>
+<MSGNUM=5147
+MSGID=cxFTL009
+PROID=2677
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=invalid component in an index key
+>
+<MSGNUM=5148
+MSGID=cxFTL010
+PROID=2678
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=killrecs: Couldn't delete recid %D<number>
+>
+<MSGNUM=5149
+MSGID=cxFTL011
+PROID=2679
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid component flag %i<number>
+>
+<MSGNUM=5150
+MSGID=cxFTL012
+PROID=641
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=findDbKey: didn't find dbkey
+>
+<MSGNUM=5151
+MSGID=dbFTL002
+PROID=1007
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=unexpected wakeup from wait code %i<number>, user %i<user-number>
+>
+<MSGNUM=5152
+MSGID=dbFTL003
+PROID=6517
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unexpected error return from semAdd %l
+>
+<MSGNUM=5153
+MSGID=dbFTL004
+PROID=7136
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=omFetch: Can't call me during crash recovery.
+>
+<MSGNUM=5154
+MSGID=dbFTL005
+PROID=7139
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Failed to locate database control block.
+>
+<MSGNUM=5155
+MSGID=dbFTL006
+PROID=7140
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Could not get pointer to control block buffer.
+>
+<MSGNUM=5156
+MSGID=dbFTL007
+PROID=7144
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=omUndo: unknown action code value: %d.
+>
+<MSGNUM=5157
+MSGID=dbFTL010
+PROID=1189
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=svwaitt, user already waiting
+>
+<MSGNUM=5158
+MSGID=dbFTL011
+PROID=1023
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=invalid wait code %i<number>
+>
+<MSGNUM=5159
+MSGID=dbMSG002
+PROID=1194
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to check whether broker is alive. Check whether _progres is rwsrwxr-x.
+>
+<MSGNUM=5160
+MSGID=dbMSG003
+PROID=1195
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=No available wait semaphore.
+>
+<MSGNUM=5161
+MSGID=dbMSG006
+PROID=2212
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You have exceeded the number of users specified in your license.
+>
+<MSGNUM=5162
+MSGID=dbMSG008
+PROID=1423
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=There is no server for database %s<dbname>.
+>
+<MSGNUM=5163
+MSGID=dbMSG009
+PROID=3651
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error getting translation/collation tables from _Db record for server.
+>
+<MSGNUM=5164
+MSGID=dbMSG015
+PROID=1379
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You are not allowed to connect to a database in $DLC.
+>
+<MSGNUM=5165
+MSGID=dbMSG016
+PROID=4528
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Absolute database name too long, found %i<number> characters, max is %d<number>%rfor file %s<file>.
+>
+<MSGNUM=5166
+MSGID=dbMSG017
+PROID=4694
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%l<number> attempt(s) to exceed the licensed user count (%l<number>) since server startup.
+>
+<MSGNUM=5167
+MSGID=dbMSG018
+PROID=4695
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User count exceeded. Failed attempt to connect by %s<userid> on %s<ttyid>.
+>
+<MSGNUM=5168
+MSGID=dbMSG019
+PROID=4708
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User defined threshold exceeded by %s<user-id> on %s<device-id>
+>
+<MSGNUM=5169
+MSGID=dbMSG020
+PROID=4709
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%l<current-count> attempt(s) to exceed the user defined threshold (%l)<user-defined-threshold> since server startup.
+>
+<MSGNUM=5170
+MSGID=dbMSG031
+PROID=5291
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You have attempted to connect to a database with too many %rusers connected to it. Retry the connection later, %ror increase -n on the server.
+>
+<MSGNUM=5171
+MSGID=dbMSG032
+PROID=5295
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Access to %s<dbname> is denied
+>
+<MSGNUM=5172
+MSGID=dbMSG034
+PROID=5400
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to terminate thread %X, errno %d.
+>
+<MSGNUM=5173
+MSGID=dbMSG035
+PROID=7134
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Could not allocate the object cache.
+>
+<MSGNUM=5174
+MSGID=dbMSG036
+PROID=7135
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Could not allocate more storage for the object cache.
+>
+<MSGNUM=5175
+MSGID=dbMSG037
+PROID=7137
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=omGetObjectRecord: buffer too small -- need %l.
+>
+<MSGNUM=5176
+MSGID=dbMSG038
+PROID=7138
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=omGetObjectRecord: recGet call failed.
+>
+<MSGNUM=5177
+MSGID=dbMSG039
+PROID=7141
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=omGetObjectRecord failed to get record rc = %l.
+>
+<MSGNUM=5178
+MSGID=dbMSG040
+PROID=7142
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Out of object numbers.
+>
+<MSGNUM=5179
+MSGID=dbMSG041
+PROID=7143
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Couldn't find new object number.
+>
+<MSGNUM=5180
+MSGID=dbMSG044
+PROID=8404
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=WARNING: updates to this database are not recommended.
+>
+<MSGNUM=5181
+MSGID=dbMSG045
+PROID=8405
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Client/database minor version mismatch.  Expected %l<version>. Found %l<version>.
+>
+<MSGNUM=5182
+MSGID=dbMSG046
+PROID=8406
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database minor version mismatch.  Expected %l<version>. Found %l<version>.
+>
+<MSGNUM=5183
+MSGID=drFTL012
+PROID=5026
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=User %i<num> died holding %i<num> shared memory locks.
+>
+<MSGNUM=5184
+MSGID=drFTL013
+PROID=5027
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=User %i<num> died with %i<num> buffers locked.
+>
+<MSGNUM=5185
+MSGID=drMSG001
+PROID=613
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%r<file-name>%s is a void multi-volume database.
+>
+<MSGNUM=5186
+MSGID=drMSG012
+PROID=333
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=<time>Multi-user session begin.
+>
+<MSGNUM=5187
+MSGID=drMSG013
+PROID=334
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=<time><Multi/Single>%s session end.
+>
+<MSGNUM=5188
+MSGID=drMSG020
+PROID=451
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=<session-type>%s session begin for <user>%s on <ttyxxx>%s.
+>
+<MSGNUM=5189
+MSGID=drMSG021
+PROID=452
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Login by <user>%s on <ttyxxx>%s.
+>
+<MSGNUM=5190
+MSGID=drMSG022
+PROID=453
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Logout by <user>%s on <ttyxxx>%s.
+>
+<MSGNUM=5191
+MSGID=drMSG026
+PROID=614
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=A previous prorest <database-name>%s failed.
+>
+<MSGNUM=5192
+MSGID=drMSG046
+PROID=1115
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Open failed.  Database unusable due to partial conversion.
+>
+<MSGNUM=5193
+MSGID=drMSG070
+PROID=1188
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Reduce -n, shared memory segment is too small.
+>
+<MSGNUM=5194
+MSGID=drMSG113
+PROID=1552
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=WARNING: Before-image file of database <name>%s is not truncated.
+>
+<MSGNUM=5195
+MSGID=drMSG114
+PROID=1553
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The last backup was not completed successfully.
+>
+<MSGNUM=5196
+MSGID=drMSG119
+PROID=1617
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Backup terminated due to errors.
+>
+<MSGNUM=5197
+MSGID=drMSG123
+PROID=1689
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Read-only is not supported in this mode
+>
+<MSGNUM=5198
+MSGID=drMSG129
+PROID=2356
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Open failed, Database <name>%s requires rebuild of all indexes.
+>
+<MSGNUM=5199
+MSGID=drMSG133
+PROID=4235
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Physical Database Name (-db): %s<full-path/database-name>.
+>
+<MSGNUM=5200
+MSGID=drMSG146
+PROID=4236
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database Type (-dt): %s<Gemini/ORACLE/SYBASE/CISAM/RMS/Rdb>.
+>
+<MSGNUM=5201
+MSGID=drMSG159
+PROID=4237
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Force Access (-F): %s<Enabled/Not Enabled>.
+>
+<MSGNUM=5202
+MSGID=drMSG162
+PROID=4238
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Direct I/O (-directio): %s<Enabled/Not Enabled/Not Supported>.
+>
+<MSGNUM=5203
+MSGID=drMSG170
+PROID=2520
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Stopped.
+>
+<MSGNUM=5204
+MSGID=drMSG172
+PROID=2522
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User %i<num> died holding %i<num> shared memory locks.
+>
+<MSGNUM=5205
+MSGID=drMSG173
+PROID=2523
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User %i<num> died with %i<num> buffers locked.
+>
+<MSGNUM=5206
+MSGID=drMSG174
+PROID=4239
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Number of Database Buffers (gemini_buffer_cache): %l<num>.
+>
+<MSGNUM=5207
+MSGID=drMSG175
+PROID=2525
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Disconnecting dead server %i<number>.
+>
+<MSGNUM=5208
+MSGID=drMSG176
+PROID=2526
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Disconnecting client %i<number> of dead server %i<number>.
+>
+<MSGNUM=5209
+MSGID=drMSG177
+PROID=2527
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Disconnecting dead user %i<number>.
+>
+<MSGNUM=5210
+MSGID=drMSG197
+PROID=3660
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%l<parameter> is more than the maximum number temporary buffers allowed. %rResetting to %l<number>.
+>
+<MSGNUM=5211
+MSGID=drMSG205
+PROID=3669
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Switch to new ai extent failed.
+>
+<MSGNUM=5212
+MSGID=drMSG256
+PROID=4240
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Excess Shared Memory Size (-Mxs): %i<num>.
+>
+<MSGNUM=5213
+MSGID=drMSG258
+PROID=4241
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Current Size of Lock Table (gemini_lock_table_size): %l<#>.
+>
+<MSGNUM=5214
+MSGID=drMSG269
+PROID=4777
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The license statistics log file will be updated once every %l <num-of-minutes>minute(s)
+>
+<MSGNUM=5215
+MSGID=drMSG276
+PROID=4242
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Hash Table Entries (-hash): %i<num>.
+>
+<MSGNUM=5216
+MSGID=drMSG277
+PROID=4243
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Current Spin Lock Tries (-spin): %l<num>.
+>
+<MSGNUM=5217
+MSGID=drMSG278
+PROID=4244
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Crash Recovery (-i): %s<Enabled/Disabled>.
+>
+<MSGNUM=5218
+MSGID=drMSG279
+PROID=4245
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Delay of Before-Image Flush (-Mf): %i<num>.
+>
+<MSGNUM=5219
+MSGID=drMSG281
+PROID=4247
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-Image File I/O (-r -R): %s<Reliable/Not Reliable>.
+>
+<MSGNUM=5220
+MSGID=drMSG282
+PROID=4249
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-Image Truncate Interval (-G): %i<num>.
+>
+<MSGNUM=5221
+MSGID=drMSG283
+PROID=4250
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-Image Cluster Size: %l<num>.
+>
+<MSGNUM=5222
+MSGID=drMSG284
+PROID=4251
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-Image Block Size: %l<num>.
+>
+<MSGNUM=5223
+MSGID=drMSG285
+PROID=4252
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Number of Before-Image Buffers (-bibufs): %l<num>.
+>
+<MSGNUM=5224
+MSGID=drMSG287
+PROID=4254
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=After-Image Stall (-aistall): %s<Enabled/Not Enabled>.
+>
+<MSGNUM=5225
+MSGID=drMSG288
+PROID=4255
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=After-Image Block Size: %l<num>.
+>
+<MSGNUM=5226
+MSGID=drMSG289
+PROID=4256
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Number of After-Image Buffers (-aibufs): %l<num>.
+>
+<MSGNUM=5227
+MSGID=drMSG290
+PROID=4257
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum Number of Clients Per Server (-Ma): %i<num>.
+>
+<MSGNUM=5228
+MSGID=drMSG291
+PROID=4258
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum Number of Servers (-Mn): %i<num>.
+>
+<MSGNUM=5229
+MSGID=drMSG292
+PROID=4259
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Minimum Clients Per Server (-Mi): %i<num>.
+>
+<MSGNUM=5230
+MSGID=drMSG293
+PROID=4260
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum Number of Users (-n): %i<num>.
+>
+<MSGNUM=5231
+MSGID=drMSG294
+PROID=4261
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Host Name (-H): %s<database-server-host>.
+>
+<MSGNUM=5232
+MSGID=drMSG295
+PROID=4262
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Service Name (-S): %s<service-name>.
+>
+<MSGNUM=5233
+MSGID=drMSG296
+PROID=4263
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Network Type (-N): %s<network-type>.
+>
+<MSGNUM=5234
+MSGID=drMSG297
+PROID=4264
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Character Set (-cpinternal): %s<undefined/iso885901>.
+>
+<MSGNUM=5235
+MSGID=drMSG299
+PROID=4281
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Server started by %s<user-id> on %s<tty-name>.
+>
+<MSGNUM=5236
+MSGID=drMSG300
+PROID=4282
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Parameter File: %s<parameter-file-name>.
+>
+<MSGNUM=5237
+MSGID=drMSG388
+PROID=5556
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Shared Memory Page Table Entry Optimization (-Mpte); %i<num>.
+>
+<MSGNUM=5238
+MSGID=drMSG389
+PROID=5569
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet point request login by <user>%s on <ttyxxx>%s.
+>
+<MSGNUM=5239
+MSGID=drMSG392
+PROID=5572
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=A quiet point has already been requested.
+>
+<MSGNUM=5240
+MSGID=drMSG393
+PROID=5573
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Enabling the quiet point is in effect.
+>
+<MSGNUM=5241
+MSGID=drMSG394
+PROID=5574
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=After-imaging is enabled, this is not allowed with quiet points.
+>
+<MSGNUM=5242
+MSGID=drMSG395
+PROID=5575
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Broker died during a quiet point enable request.
+>
+<MSGNUM=5243
+MSGID=drMSG396
+PROID=5576
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet utility received shutdown request while attempting to enable a quiet point.
+>
+<MSGNUM=5244
+MSGID=drMSG397
+PROID=5577
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet utility detected that the broker died during a quiet disable request.
+>
+<MSGNUM=5245
+MSGID=drMSG398
+PROID=5578
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet utility received a shutdown request during quiet disable.
+>
+<MSGNUM=5246
+MSGID=drMSG399
+PROID=5579
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet point does not need to be disabled.
+>
+<MSGNUM=5247
+MSGID=drMSG400
+PROID=5580
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet utility has detected that the broker is dead - abnormal shutdown of the database is in progress.
+>
+<MSGNUM=5248
+MSGID=drMSG402
+PROID=5583
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet point has been enabled by the broker.
+>
+<MSGNUM=5249
+MSGID=drMSG403
+PROID=5584
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Quiet point has been disabled by the broker.
+>
+<MSGNUM=5250
+MSGID=drMSG404
+PROID=5647
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum Servers Per Broker (-Mpb): %i<num>.
+>
+<MSGNUM=5251
+MSGID=drMSG405
+PROID=5648
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Minimum Port for Auto Servers (-minport): %i<num>.
+>
+<MSGNUM=5252
+MSGID=drMSG406
+PROID=5649
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum Port for Auto Servers (-maxport): %i<num>.
+>
+<MSGNUM=5253
+MSGID=drMSG445
+PROID=6526
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Number of Semaphore Sets (-semsets) %l.
+>
+<MSGNUM=5254
+MSGID=drMSG448
+PROID=6551
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold Stall (-bistall): Enabled.
+>
+<MSGNUM=5255
+MSGID=drMSG449
+PROID=6552
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold Stall (-bistall): Disabled.
+>
+<MSGNUM=5256
+MSGID=drMSG451
+PROID=6554
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Request to change RL File Threshold value rejected.
+>
+<MSGNUM=5257
+MSGID=drMSG452
+PROID=6555
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL Threshold has not been reached and a Quiet Point has not been enabled.
+>
+<MSGNUM=5258
+MSGID=drMSG454
+PROID=6557
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid RL Threshold value has been requested.
+>
+<MSGNUM=5259
+MSGID=drMSG457
+PROID=6560
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Forward processing stalled until database administrator intervention.
+>
+<MSGNUM=5260
+MSGID=drMSG458
+PROID=6561
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Forward processing continuing.
+>
+<MSGNUM=5261
+MSGID=drMSG459
+PROID=6573
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database Blocksize (-blocksize): %d<num>.
+>
+<MSGNUM=5262
+MSGID=drMSG460
+PROID=6574
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Started using pid: %d<num>.
+>
+<MSGNUM=5263
+MSGID=drMSG642
+PROID=7129
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Usr %l set name to %s.
+>
+<MSGNUM=5264
+MSGID=drMSG643
+PROID=7130
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s failed with error exit %i.
+>
+<MSGNUM=5265
+MSGID=drMSG644
+PROID=7131
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s called when database shutting down. rtc: %i.
+>
+<MSGNUM=5266
+MSGID=drMSG645
+PROID=7132
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s called for invalid user. rtc: %i.
+>
+<MSGNUM=5267
+MSGID=drMSG660
+PROID=8527
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Storage object cache size (-omsize): %l 
+>
+<MSGNUM=5268
+MSGID=drMSG672
+PROID=8900
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Two-phase is enabled.
+>
+<MSGNUM=5269
+MSGID=drMSG680
+PROID=9141
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Refer to release notes for minor version %d<minor version number> before updating database.
+>
+<MSGNUM=5270
+MSGID=drMSG682
+PROID=9238
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold size (-bithold): %s<size+identifier>.
+>
+<MSGNUM=5271
+MSGID=drMSG683
+PROID=9239
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold size of %s<size+identifier> has been reached.
+>
+<MSGNUM=5272
+MSGID=drMSG684
+PROID=9240
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File size has grown to within 90 percent of the threshold value of %s<size+identifier>.
+>
+<MSGNUM=5273
+MSGID=drMSG686
+PROID=9242
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold size has been changed from %s<size+identifier>, to %s<size+identifier>.
+>
+<MSGNUM=5274
+MSGID=drMSG687
+PROID=9244
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL File Threshold size is already %s<size+identifier>.
+>
+<MSGNUM=5275
+MSGID=ioMSG020
+PROID=388
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%sDatabase in use by %s<user> on %s<tty>. Wait or press %k<STOP> to stop.
+>
+<MSGNUM=5276
+MSGID=ioMSG026
+PROID=121
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%s<file-name> in use by %s<user> on %s<tty>. Wait or press %k<STOP> to stop.
+>
+<MSGNUM=5277
+MSGID=ioMSG036
+PROID=416
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=%sDictionary being changed by %s<user> on %s<tty>. Wait or press %k<STOP> 
+>
+<MSGNUM=5278
+MSGID=ixFTL001
+PROID=122
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixgen called with recid of zero.
+>
+<MSGNUM=5279
+MSGID=ixFTL002
+PROID=804
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Missing master block in ixunkill.
+>
+<MSGNUM=5280
+MSGID=ixFTL003
+PROID=124
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=kyinit: numcomps+2 > pkditem->dpad.
+>
+<MSGNUM=5281
+MSGID=ixFTL005
+PROID=35
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unrecognized ix undo code <code>%d.
+>
+<MSGNUM=5282
+MSGID=ixFTL006
+PROID=40
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Attempt to define too many indexes.
+>
+<MSGNUM=5283
+MSGID=ixFTL008
+PROID=421
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixgen called with no transaction.
+>
+<MSGNUM=5284
+MSGID=ixFTL009
+PROID=422
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixdel with no transaction.
+>
+<MSGNUM=5285
+MSGID=ixFTL010
+PROID=805
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unexpected IDXBLK received.
+>
+<MSGNUM=5286
+MSGID=ixFTL011
+PROID=806
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=IX_KILL or IX_UNKILL received during ixkill or ixunkill.
+>
+<MSGNUM=5287
+MSGID=ixFTL012
+PROID=807
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unexpected note code: <number>%t received.
+>
+<MSGNUM=5288
+MSGID=ixFTL013
+PROID=808
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixdel failed in ixundo of RL_IXGEN, ret=<number>%i.
+>
+<MSGNUM=5289
+MSGID=ixFTL015
+PROID=810
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixgen failed in ixundo of RL_IXDEL, ret=<number>%i.
+>
+<MSGNUM=5290
+MSGID=ixFTL017
+PROID=1062
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ixfil called during resyncing
+>
+<MSGNUM=5291
+MSGID=ixFTL021
+PROID=1066
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=unexpected RQSTQUED in ixundo
+>
+<MSGNUM=5292
+MSGID=IXMSG004
+PROID=5021
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Ixundo failed in ixgen due to finding a duplicate key in index number %i<inxex number>,  This index may be missing a key.  
+>
+<MSGNUM=5293
+MSGID=IXMSG005
+PROID=5022
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Ixundo failed in ixdel because it was unable to find the key to delete in index number %i<inxex number>.  This Index may have an incorrect key.  
+>
+<MSGNUM=5294
+MSGID=mtFTL004
+PROID=1664
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Illegal semaphore address
+>
+<MSGNUM=5295
+MSGID=mtFTL005
+PROID=3710
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=bad latch wake usr %i<num> latch %i<latch-num> waiting for %i<lock-num>.
+>
+<MSGNUM=5296
+MSGID=mtFTL006
+PROID=3711
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtlatch: already holding %i<lock-num>.
+>
+<MSGNUM=5297
+MSGID=mtFTL007
+PROID=3712
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtlatch %i<latch-num>, holding %X<lock>.
+>
+<MSGNUM=5298
+MSGID=mtFTL008
+PROID=3713
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=invalid latch type %i<code>.
+>
+<MSGNUM=5299
+MSGID=mtFTL009
+PROID=3714
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtunlatch %d<latch-id>: not owner.
+>
+<MSGNUM=5300
+MSGID=mtFTL010
+PROID=3715
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=latch %i<latch-num> depth %i<levels>.
+>
+<MSGNUM=5301
+MSGID=mtFTL011
+PROID=3716
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtunlatch: invalid latch type
+>
+<MSGNUM=5302
+MSGID=mtFTL012
+PROID=3717
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtrelatch: lost latch depth counter %i<num>.
+>
+<MSGNUM=5303
+MSGID=mtFTL013
+PROID=3718
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtlkmux %i<latch-num>, holding %X<lock>.
+>
+<MSGNUM=5304
+MSGID=mtFTL014
+PROID=3719
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=muxfree %i<latch-id> not owner.
+>
+<MSGNUM=5305
+MSGID=mtFTL015
+PROID=3720
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=mtLockWait: waitCode 0.
+>
+<MSGNUM=5306
+MSGID=mtFTL016
+PROID=3726
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkwait holding shm locks %X<latches>.
+>
+<MSGNUM=5307
+MSGID=mtMSG003
+PROID=1384
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The database is being shutdown.
+>
+<MSGNUM=5308
+MSGID=mtMSG004
+PROID=1531
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Warning: another user is using this database in update mode.  %rAccessing the database with -RO may give unexpected results.
+>
+<MSGNUM=5309
+MSGID=mtMSG005
+PROID=5028
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Releasing regular latch. latchId:<latch-num> %d
+>
+<MSGNUM=5310
+MSGID=mtMSG007
+PROID=3709
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtLatWake self.
+>
+<MSGNUM=5311
+MSGID=mtMSG008
+PROID=3721
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtLockWait: umLockWait returns %i.
+>
+<MSGNUM=5312
+MSGID=mtMSG009
+PROID=3722
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtusrwake: self.
+>
+<MSGNUM=5313
+MSGID=mtMSG010
+PROID=3723
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtusrwake: wrong queue, usr %i<num>, queue %i<num>, waiting for %i<lock>.
+>
+<MSGNUM=5314
+MSGID=mtMSG011
+PROID=3724
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtusrwake: user %i<num> already waked, queue %i<num> wake %i<num>.
+>
+<MSGNUM=5315
+MSGID=mtMSG012
+PROID=3725
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=mtusrwake: user %i still in queue %i.
+>
+<MSGNUM=5316
+MSGID=mtMSG013
+PROID=5029
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Releasing multiplexed latch. latchId:<latch-num> %d
+>
+<MSGNUM=5317
+MSGID=mtMSG019
+PROID=9106
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=There is a schema lock being held by %s<user> on %s<tty>, exiting. 
+>
+<MSGNUM=5318
+MSGID=muFTL001
+PROID=3728
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lklocky: forgot to wait, recid %D
+>
+<MSGNUM=5319
+MSGID=muFTL002
+PROID=3730
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkrestore: bad uc_qwait2
+>
+<MSGNUM=5320
+MSGID=muFTL004
+PROID=3734
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkrestore: couldn't find entry
+>
+<MSGNUM=5321
+MSGID=muFTL005
+PROID=3735
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Failed to unlock the specified row %D on table %d because the row is not locked. 
+>
+<MSGNUM=5322
+MSGID=muFTL006
+PROID=3737
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkclrels: bad uc_qwait2
+>
+<MSGNUM=5323
+MSGID=muMSG001
+PROID=3727
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Can not resync transaction of user %d<num> on tty %s<terminal>.
+>
+<MSGNUM=5324
+MSGID=muMSG005
+PROID=3736
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=bad lkclrels call: pusr->uc_qwait2 is NULL
+>
+<MSGNUM=5325
+MSGID=mvMSG284
+PROID=6985
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Record %d<record num> in area %l<area num> not found.
+>
+<MSGNUM=5326
+MSGID=mvMSG288
+PROID=6989
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error deleting file: %s<filename>.  errno: %d<error number>.
+>
+<MSGNUM=5327
+MSGID=rlFTL001
+PROID=827
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** rlaixtn: Insufficient disk space to extend the after-image file.
+>
+<MSGNUM=5328
+MSGID=rlFTL002
+PROID=828
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlaidel: read past BOF of the after-image file.
+>
+<MSGNUM=5329
+MSGID=rlFTL003
+PROID=2032
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Cannot roll back a Ready-To-Commit task of user %d on tty %s.
+>
+<MSGNUM=5330
+MSGID=rlFTL008
+PROID=3770
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=ai write out of sequence
+>
+<MSGNUM=5331
+MSGID=rlFTL011
+PROID=766
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unexpected extent switch note
+>
+<MSGNUM=5332
+MSGID=rlFTL012
+PROID=5111
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid note length %i<note length>
+>
+<MSGNUM=5333
+MSGID=rlFTL015
+PROID=5568
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unrecognized undo code <code>%d, flags %d.
+>
+<MSGNUM=5334
+MSGID=rlFTL017
+PROID=854
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** Insufficient disk space to extend the Recovery Log.
+>
+<MSGNUM=5335
+MSGID=rlFTL018
+PROID=3771
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlaiwt: can not find %l<ai-note>
+>
+<MSGNUM=5336
+MSGID=rlFTL019
+PROID=856
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlclins has invalid arg clstaddr==nextaddr = <number>%l.
+>
+<MSGNUM=5337
+MSGID=rlFTL020
+PROID=3772
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=buffer not dirty
+>
+<MSGNUM=5338
+MSGID=rlFTL021
+PROID=3774
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Backup after-image extent and mark it as empty.
+>
+<MSGNUM=5339
+MSGID=rlFTL022
+PROID=859
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk rlpbkout: note=<number>%l rlctl=<number>%l.
+>
+<MSGNUM=5340
+MSGID=rlFTL023
+PROID=860
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk mb_lasttask: note=<number>%l mstrblk=<number>%l.
+>
+<MSGNUM=5341
+MSGID=rlFTL024
+PROID=861
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk mb_aictr: note=<number>%l mstrblk=<number>%l.
+>
+<MSGNUM=5342
+MSGID=rlFTL025
+PROID=862
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk aiwrtloc: note=<number>%l rlctl=<number>%l.
+>
+<MSGNUM=5343
+MSGID=rlFTL026
+PROID=863
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk tx_count: note=<number>%d ptran=<number>%d.
+>
+<MSGNUM=5344
+MSGID=rlFTL027
+PROID=864
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlmemchk: transaction table mismatch.
+>
+<MSGNUM=5345
+MSGID=rlFTL028
+PROID=865
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlrdprv: There are no more notes to be read.
+>
+<MSGNUM=5346
+MSGID=rlFTL029
+PROID=867
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlrdprv missing part of a note.
+>
+<MSGNUM=5347
+MSGID=rlFTL030
+PROID=868
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=prevbiblk (rlrw.c) bad prev rlcounter.
+>
+<MSGNUM=5348
+MSGID=rlFTL031
+PROID=866
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbird called with invalid address=<number>%l.
+>
+<MSGNUM=5349
+MSGID=rlFTL032
+PROID=3809
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG= rlrctrd: tx_count = %d note = %d
+>
+<MSGNUM=5350
+MSGID=rlFTL033
+PROID=3810
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlrctrd: ready-to-commit tx table mismatch
+>
+<MSGNUM=5351
+MSGID=rlFTL035
+PROID=881
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=The Recovery Log file has the wrong cluster size.
+>
+<MSGNUM=5352
+MSGID=rlFTL036
+PROID=880
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Bad counter in the .bi file.
+>
+<MSGNUM=5353
+MSGID=rlFTL037
+PROID=874
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Two clusters in the .bi file have the same rlcounter.
+>
+<MSGNUM=5354
+MSGID=rlFTL038
+PROID=876
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Infinite loop in the .bi file.
+>
+<MSGNUM=5355
+MSGID=rlFTL039
+PROID=882
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to find all orphan clusters.
+>
+<MSGNUM=5356
+MSGID=rlFTL040
+PROID=883
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to read memory note in roll forward
+>
+<MSGNUM=5357
+MSGID=rlFTL041
+PROID=873
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Physical redo, BKUPDCTR=<number>%l, note updctr=<number>%l.
+>
+<MSGNUM=5358
+MSGID=rlFTL042
+PROID=7145
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlaiswitch: No next ai area found to switch to.
+>
+<MSGNUM=5359
+MSGID=rlFTL043
+PROID=7146
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Live tx mismatch sequence %i note %i tx table %i.
+>
+<MSGNUM=5360
+MSGID=rlFTL044
+PROID=870
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rdbifwd: bad rlcounter when reading forward.
+>
+<MSGNUM=5361
+MSGID=rlFTL045
+PROID=3812
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rllktxe: Attempting to acquire txe while holding buffer locks
+>
+<MSGNUM=5362
+MSGID=rlFTL046
+PROID=510
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** Your database cannot be repaired. You must restore a backup copy.
+>
+<MSGNUM=5363
+MSGID=rlFTL051
+PROID=3820
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbimv: note %i len %i too big
+>
+<MSGNUM=5364
+MSGID=rlFTL052
+PROID=3821
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlputmod: wrong dpend %l
+>
+<MSGNUM=5365
+MSGID=rlFTL053
+PROID=3822
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlputmod: dpend %l already written
+>
+<MSGNUM=5366
+MSGID=rlFTL054
+PROID=3823
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlgetfree: no buffer to write
+>
+<MSGNUM=5367
+MSGID=rlFTL055
+PROID=3824
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlgetfree loop
+>
+<MSGNUM=5368
+MSGID=rlFTL056
+PROID=3825
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG= bi write queue disordered: dpend %l
+>
+<MSGNUM=5369
+MSGID=rlFTL057
+PROID=3826
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbiflsh failed on %i<depend-ctr> last write %i<amount-written>
+>
+<MSGNUM=5370
+MSGID=rlFTL060
+PROID=3829
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbinext: attempt to find a block %l past end of cluster %l
+>
+<MSGNUM=5371
+MSGID=rlFTL061
+PROID=3830
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbimv: movelen %i, bloff %i
+>
+<MSGNUM=5372
+MSGID=rlFTL062
+PROID=3831
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlrdprv: note len %i too big
+>
+<MSGNUM=5373
+MSGID=rlFTL063
+PROID=3832
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbiout: Invalid rl block pointer
+>
+<MSGNUM=5374
+MSGID=rlFTL064
+PROID=3833
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlbiout: Invalid buffer state %d
+>
+<MSGNUM=5375
+MSGID=rlFTL065
+PROID=4554
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlaiextrd: Transaction table mismatch ptran: %i note %i.
+>
+<MSGNUM=5376
+MSGID=rlFTL067
+PROID=4556
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlultxe: txe not locked.
+>
+<MSGNUM=5377
+MSGID=rlFTL068
+PROID=4559
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlbiwrt: Invalid rl block pointer.
+>
+<MSGNUM=5378
+MSGID=rlFTL069
+PROID=7147
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Expected %i tx entries but got %i.
+>
+<MSGNUM=5379
+MSGID=rlFTL070
+PROID=7148
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tl write location mismatch %l %l.
+>
+<MSGNUM=5380
+MSGID=rlFTL071
+PROID=7149
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tl write offset mismatch %l %l.
+>
+<MSGNUM=5381
+MSGID=rlFTL073
+PROID=7153
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rllktxe: lock error: requested %i holding %i.
+>
+<MSGNUM=5382
+MSGID=rlFTL074
+PROID=7154
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rllktxe:Wakened but lock not granted.
+>
+<MSGNUM=5383
+MSGID=rlFTL076
+PROID=7156
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't hold any latches while napping for group commit.
+>
+<MSGNUM=5384
+MSGID=rlFTL077
+PROID=7158
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=tl block header smashed blknum %l smashed code %l.
+>
+<MSGNUM=5385
+MSGID=rlFTL078
+PROID=7159
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Redo did not start with a checkpoint note.
+>
+<MSGNUM=5386
+MSGID=rlFTL079
+PROID=7160
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Check point notes out of sequence %l %l.
+>
+<MSGNUM=5387
+MSGID=rlFTL080
+PROID=7166
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Crash recovery aborted - Database is damaged.
+>
+<MSGNUM=5388
+MSGID=rlFTL081
+PROID=7167
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=rlrdnxt: note prefix and suffix lengths don't match %i %i.
+>
+<MSGNUM=5389
+MSGID=rlMSG001
+PROID=831
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The database was last changed <date/time>%s.
+>
+<MSGNUM=5390
+MSGID=rlMSG002
+PROID=832
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The after-image file expected <date/time>%s.
+>
+<MSGNUM=5391
+MSGID=rlMSG003
+PROID=833
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Those dates don't match, so you have the wrong copy of one of them.
+>
+<MSGNUM=5392
+MSGID=rlMSG005
+PROID=846
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=After-image disabled.
+>
+<MSGNUM=5393
+MSGID=rlMSG014
+PROID=1620
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-image cluster size set to <size>%l kb.
+>
+<MSGNUM=5394
+MSGID=rlMSG015
+PROID=515
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** This session is running with the non-raw (-r) parameter.
+>
+<MSGNUM=5395
+MSGID=rlMSG016
+PROID=512
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** This session is being run with the no-integrity (-i) option.
+>
+<MSGNUM=5396
+MSGID=rlMSG020
+PROID=886
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The database was last used <date/time>%s.
+>
+<MSGNUM=5397
+MSGID=rlMSG021
+PROID=887
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The Recovery Log file expected <date/time>%s.
+>
+<MSGNUM=5398
+MSGID=rlMSG022
+PROID=888
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Those dates don't match, so you have the wrong copy of one of them.
+>
+<MSGNUM=5399
+MSGID=rlMSG023
+PROID=1621
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=This database has not been fully restored and may be damaged.
+>
+<MSGNUM=5400
+MSGID=rlMSG024
+PROID=33
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The FORCE option was given, database recovery will be skipped.
+>
+<MSGNUM=5401
+MSGID=rlMSG025
+PROID=509
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The last session was run with the no integrity (-i) parameter.
+>
+<MSGNUM=5402
+MSGID=rlMSG026
+PROID=517
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The last session was run with the non-raw (-r) parameter.
+>
+<MSGNUM=5403
+MSGID=rlMSG027
+PROID=518
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Your database may have been damaged.
+>
+<MSGNUM=5404
+MSGID=rlMSG029
+PROID=37
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Your database was damaged. Dump its data and reload it.
+>
+<MSGNUM=5405
+MSGID=rlMSG030
+PROID=514
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** An earlier -r session crashed, the database may be damaged.
+>
+<MSGNUM=5406
+MSGID=rlMSG045
+PROID=829
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The file <name>%s is not the correct after-image file.
+>
+<MSGNUM=5407
+MSGID=rlMSG048
+PROID=877
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid RL file, Recovery Log file is zero length.
+>
+<MSGNUM=5408
+MSGID=rlMSG052
+PROID=3773
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't switch to after-image extent %s it is full.
+>
+<MSGNUM=5409
+MSGID=rlMSG053
+PROID=3775
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't switch to after-image extent %s it is full.
+>
+<MSGNUM=5410
+MSGID=rlMSG054
+PROID=3776
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Backup ai extent and mark it as empty.
+>
+<MSGNUM=5411
+MSGID=rlMSG055
+PROID=3777
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Switched to ai extent %s.
+>
+<MSGNUM=5412
+MSGID=rlMSG056
+PROID=3778
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=This is after-image file number %l<ai-extend-num> since the last AIMAGE BEGIN
+>
+<MSGNUM=5413
+MSGID=rlMSG057
+PROID=3779
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't extend ai extent %s
+>
+<MSGNUM=5414
+MSGID=rlMSG058
+PROID=3780
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Can't roll forward an empty after-image extent file.
+>
+<MSGNUM=5415
+MSGID=rlMSG059
+PROID=3781
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Before-image block size set to %l<num> kb (%l<num> bytes).
+>
+<MSGNUM=5416
+MSGID=rlMSG060
+PROID=504
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid block size in AI file found %d<blocksize>, expected %l<blocksize>
+>
+<MSGNUM=5417
+MSGID=rlMSG087
+PROID=3817
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG= dpend: %l sdpend: %l dbkey: %D
+>
+<MSGNUM=5418
+MSGID=rlMSG088
+PROID=3818
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG= dpend: %l sdpend %l dbkey: %D
+>
+<MSGNUM=5419
+MSGID=rlMSG089
+PROID=3819
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG= rlwritten: %l, rldepend: %l
+>
+<MSGNUM=5420
+MSGID=rlMSG090
+PROID=4557
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Undo trans %l<transaction number> invalid transaction id.
+>
+<MSGNUM=5421
+MSGID=rlMSG091
+PROID=4558
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Undo trans %l<transaction number> with invalid bi address %l<address>.
+>
+<MSGNUM=5422
+MSGID=rlMSG092
+PROID=4790
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=After-imaging disabled by the FORCE parameter.
+>
+<MSGNUM=5423
+MSGID=rlMSG094
+PROID=508
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=AI file cannot be used with this database.
+>
+<MSGNUM=5424
+MSGID=rlMSG100
+PROID=752
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid after image version number found in ai file header
+>
+<MSGNUM=5425
+MSGID=rlMSG101
+PROID=753
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=This is a version 0 Gemini ai file.
+>
+<MSGNUM=5426
+MSGID=rlMSG102
+PROID=754
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The ai file must be truncated.
+>
+<MSGNUM=5427
+MSGID=rlMSG103
+PROID=755
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=See documentation for aimage truncate
+>
+<MSGNUM=5428
+MSGID=rlMSG104
+PROID=756
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=This is not a Gemini ai file
+>
+<MSGNUM=5429
+MSGID=rlMSG106
+PROID=765
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=rlInit: Could not get memory for rl control
+>
+<MSGNUM=5430
+MSGID=rlMSG112
+PROID=1084
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid blocksize requested for %s<database>, attempting to use default block size.
+>
+<MSGNUM=5431
+MSGID=rlMSG113
+PROID=2292
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Insufficient disk space to extend the Recovery Log file.
+>
+<MSGNUM=5432
+MSGID=rlMSG115
+PROID=5326
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin Physical Redo Phase at %l <current address>.
+>
+<MSGNUM=5433
+MSGID=rlMSG117
+PROID=5328
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin Logical Undo Phase, %i <number of live transactions> incomplete transactions.
+>
+<MSGNUM=5434
+MSGID=rlMSG118
+PROID=5329
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Logical Undo Phase Complete.
+>
+<MSGNUM=5435
+MSGID=rlMSG120
+PROID=5331
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Physical Undo Phase Completed at %i <bi address>.
+>
+<MSGNUM=5436
+MSGID=rlMSG121
+PROID=5350
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database Server shutting down as a result of after-image extent switch failure.
+>
+<MSGNUM=5437
+MSGID=rlMSG123
+PROID=6566
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=RL file size is greater than the RL file threshold size.
+>
+<MSGNUM=5438
+MSGID=rlMSG124
+PROID=6567
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=You must truncate the RL file or increase the RL threshold size.
+>
+<MSGNUM=5439
+MSGID=rlMSG134
+PROID=7157
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Database must have a TL area to enable 2pc.
+>
+<MSGNUM=5440
+MSGID=rlMSG135
+PROID=7161
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Physical Redo Phase Completed at blk %l off %l upd %l.
+>
+<MSGNUM=5441
+MSGID=rlMSG136
+PROID=7162
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin Logical Undo Phase, %i incomplete transactions are being backed out.
+>
+<MSGNUM=5442
+MSGID=rlMSG137
+PROID=7163
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin Physical Undo %i transactions at block %l offset %l
+>
+<MSGNUM=5443
+MSGID=rlMSG138
+PROID=7164
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Block update counter is too low for undo.
+>
+<MSGNUM=5444
+MSGID=rlMSG139
+PROID=7165
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Block DBKEY %D block counter %l note counter %l
+>
+<MSGNUM=5445
+MSGID=rlMSG140
+PROID=8019
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Expected ai file number %l but file specified is %l in sequence.
+>
+<MSGNUM=5446
+MSGID=rlMSG141
+PROID=8896
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Cluster aging has detected that the clock has gone backwards by %l seconds.
+>
+<MSGNUM=5447
+MSGID=rlMSG145
+PROID=9333
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Incomplete ai file detected, expected %d<blocks>, got %d<blocks>.          %rSubsequent roll forwards will fail unless this situation is resolved.    %rSee extended help on this error for further information.
+>
+<MSGNUM=5448
+MSGID=rmFTL001
+PROID=3834
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmdochg: size %d<rec-size>, expected %d<rec-size>
+>
+<MSGNUM=5449
+MSGID=rmFTL002
+PROID=768
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmsetl: rmundotab not allocated
+>
+<MSGNUM=5450
+MSGID=rmFTL004
+PROID=2572
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmmak: unexpected return code from rmrecc %l<num>.
+>
+<MSGNUM=5451
+MSGID=rmFTL005
+PROID=815
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Error in undo of record delete
+>
+<MSGNUM=5452
+MSGID=rmFTL006
+PROID=5312
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to get a lock on dbkey %D<DBKEY> with return code %i<Return Code> during an undo operation.
+>
+<MSGNUM=5453
+MSGID=rmFTL007
+PROID=817
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmdoins 2: pbk->free went negative dbkey %D
+>
+<MSGNUM=5454
+MSGID=rmFTL008
+PROID=5313
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Could not delete record with dbkey %d<DBKEY> in undo.
+>
+<MSGNUM=5455
+MSGID=rmFTL009
+PROID=819
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Error in undo of record delete
+>
+<MSGNUM=5456
+MSGID=rmFTL010
+PROID=820
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Error in undo of record delete
+>
+<MSGNUM=5457
+MSGID=rmFTL011
+PROID=5314
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Undo failed to reproduce the record with dbkey %D<DBKEY> and return code %i<Return Code>.
+>
+<MSGNUM=5458
+MSGID=rmFTL012
+PROID=822
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmdoins 1: pbk->free went negative dbkey %D
+>
+<MSGNUM=5459
+MSGID=rmFTL014
+PROID=1067
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=wrong dbkey
+>
+<MSGNUM=5460
+MSGID=rmFTL015
+PROID=1068
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmmak called during resyncing
+>
+<MSGNUM=5461
+MSGID=rmFTL016
+PROID=3835
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmflchg: RECID %D<recid> rmgetf returns %i<rec-size> expected %i<rec-size>
+>
+<MSGNUM=5462
+MSGID=rmFTL017
+PROID=3836
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmflchg: RECID %D rmDoDif returns %i, expected %i
+>
+<MSGNUM=5463
+MSGID=rmFTL018
+PROID=5543
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmundochg: size %d<rec-size>, expected %d<rec-size>
+>
+<MSGNUM=5464
+MSGID=rmMSG001
+PROID=137
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Record continuation not found, fragment recid <recid>%D.
+>
+<MSGNUM=5465
+MSGID=rmMSG002
+PROID=3837
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=rmDoDif: overrun got %i<size> had %i<size>
+>
+<MSGNUM=5466
+MSGID=rmMSG003
+PROID=767
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=rmbgnl: rmundotab already allocated
+>
+<MSGNUM=5467
+MSGID=rmMSG004
+PROID=2358
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid record with recid <recid>%D.
+>
+<MSGNUM=5468
+MSGID=rmMSG005
+PROID=7168
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=WARNING: rmFetch requests for table 0 will assume area 1.
+>
+<MSGNUM=5469
+MSGID=seFTL001
+PROID=3841
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG= error %i loading sequence cache
+>
+<MSGNUM=5470
+MSGID=seFTL002
+PROID=3842
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=serefresh: seq %i not reserved
+>
+<MSGNUM=5471
+MSGID=seFTL003
+PROID=3844
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=seundo: unknown action code %d
+>
+<MSGNUM=5472
+MSGID=seMSG001
+PROID=3838
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=seremove: %s<seq-name> not found
+>
+<MSGNUM=5473
+MSGID=seMSG002
+PROID=3839
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=error %i reading record %D
+>
+<MSGNUM=5474
+MSGID=seMSG003
+PROID=3840
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Sequence cache overflow
+>
+<MSGNUM=5475
+MSGID=seMSG004
+PROID=3843
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=serefresh: %i is an invalid function code
+>
+<MSGNUM=5476
+MSGID=smFTL006
+PROID=6493
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stRent request for more than 32K.
+>
+<MSGNUM=5477
+MSGID=smFTL007
+PROID=6495
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Out of free shared memory.  Use -Mxs to increase.
+>
+<MSGNUM=5478
+MSGID=smFTL008
+PROID=6496
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stgetbk: requested length greater than the shm segment
+>
+<MSGNUM=5479
+MSGID=smFTL009
+PROID=6499
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stVacInShm: memory not in any abk_tpstpool=%X phdr=%X
+>
+<MSGNUM=5480
+MSGID=smFTL010
+PROID=6501
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=pstpool=%X pdsmStoragePool=%X phdr=%X abkoffst=%d magic=%i.
+>
+<MSGNUM=5481
+MSGID=smFTL011
+PROID=6502
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stVacInBlocK: Bad rent prefix
+>
+<MSGNUM=5482
+MSGID=smFTL012
+PROID=6503
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stVacInBlocK: overlap pabk=%X prev=%X phdr=%X.
+>
+<MSGNUM=5483
+MSGID=smFTL013
+PROID=6504
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=stVacInBlocK: bad endmagic pabk=%X prev=%X phdr=%X
+>
+<MSGNUM=5484
+MSGID=smMSG652
+PROID=6494
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to allocate enough shared memory.
+>
+<MSGNUM=5485
+MSGID=smMSG653
+PROID=6497
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** stget: out of storage; the current -hs value is %d<blocks>. Try a larger number
+>
+<MSGNUM=5486
+MSGID=smMSG654
+PROID=6498
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** stget: out of storage.
+>
+<MSGNUM=5487
+MSGID=smMSG655
+PROID=6500
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=stVacate of invalid memory.
+>
+<MSGNUM=5488
+MSGID=stMSG006
+PROID=1450
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** stget: out of storage.
+>
+<MSGNUM=5489
+MSGID=svFTL008
+PROID=428
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Insufficient storage to allocate lock table.
+>
+<MSGNUM=5490
+MSGID=svFTL011
+PROID=430
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkpurge: record not locked.
+>
+<MSGNUM=5491
+MSGID=svFTL013
+PROID=316
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** Unable to open <file-name>%s, error code <number>%i.
+>
+<MSGNUM=5492
+MSGID=svFTL014
+PROID=432
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkcncl: invalid call.
+>
+<MSGNUM=5493
+MSGID=svFTL015
+PROID=433
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkcncl: invalid downgrade.
+>
+<MSGNUM=5494
+MSGID=svFTL031
+PROID=1053
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=lklocky: LKNOWAIT for non-record lock
+>
+<MSGNUM=5495
+MSGID=svMSG001
+PROID=431
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkrend: forgotten record lock, recid %D.
+>
+<MSGNUM=5496
+MSGID=svMSG003
+PROID=5142
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkrend called with active transaction %d
+>
+<MSGNUM=5497
+MSGID=svMSG004
+PROID=5143
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Lock type %d recid %D
+>
+<MSGNUM=5498
+MSGID=svMSG005
+PROID=1383
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to read the (probably truncated) .lk file.
+>
+<MSGNUM=5499
+MSGID=svMSG013
+PROID=435
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=lkrels record %D<recid> not locked.
+>
+<MSGNUM=5500
+MSGID=svMSG025
+PROID=723
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** The server has disconnected.
+>
+<MSGNUM=5501
+MSGID=tmFTL001
+PROID=207
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Too many transactions.
+>
+<MSGNUM=5502
+MSGID=tmFTL002
+PROID=434
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tmstrt: transaction already active.
+>
+<MSGNUM=5503
+MSGID=tmFTL004
+PROID=289
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tmrej called, but no transaction active.
+>
+<MSGNUM=5504
+MSGID=tmFTL005
+PROID=2035
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tmstrt: Cannot start a transaction while rready-to-comm.
+>
+<MSGNUM=5505
+MSGID=tmFTL006
+PROID=2036
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Tried to end a LIMBO transaction.
+>
+<MSGNUM=5506
+MSGID=tmFTL007
+PROID=2037
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=tmdlg: Negative # of rcomm notes in the table.
+>
+<MSGNUM=5507
+MSGID=tmMSG001
+PROID=2598
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Trid: %l<num> %s<time>.
+>
+<MSGNUM=5508
+MSGID=tmMSG002
+PROID=2038
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Transaction %l, on coordinator %s #%l, is in a limbo state.
+>
+<MSGNUM=5509
+MSGID=tmMSG003
+PROID=2039
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Commit transaction %l, on coordinator %s #%l (y commit, n abort, q quit)?
+>
+<MSGNUM=5510
+MSGID=tmMSG004
+PROID=2040
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Are you sure you want to commit %l<transaction-number> (y/n)?
+>
+<MSGNUM=5511
+MSGID=tmMSG005
+PROID=2041
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Are you sure you want to abort %l<transaction-number> (y/n)?
+>
+<MSGNUM=5512
+MSGID=tmMSG006
+PROID=2042
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=See list on the *.lg file. Use proutil %s<dbname> -C 2phase recover.
+>
+<MSGNUM=5513
+MSGID=tmMSG007
+PROID=2043
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The database contains limbo transactions.
+>
+<MSGNUM=5514
+MSGID=tmMSG008
+PROID=2668
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=tmstrt: free slot %i<clot-number> has transnum %l<transaction-number>
+>
+<MSGNUM=5515
+MSGID=tmMSG009
+PROID=2599
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User Id: %s<name>.
+>
+<MSGNUM=5516
+MSGID=upMSG092
+PROID=2046
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Transaction %l has not committed.
+>
+<MSGNUM=5517
+MSGID=upMSG093
+PROID=2048
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Transaction %l has committed.
+>
+<MSGNUM=5518
+MSGID=upMSG179
+PROID=2811
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>: block %D<dbkey> marked as root, but anchor is block %D<dbkey>.
+>
+<MSGNUM=5519
+MSGID=upMSG180
+PROID=2812
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>: bad data length - %d<length>, MAXIXCHRS is %d<max-length>.
+>
+<MSGNUM=5520
+MSGID=upMSG181
+PROID=2813
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>: block end mismatch: p = %p<pointer>, pend = %p<pointer>.
+>
+<MSGNUM=5521
+MSGID=upMSG182
+PROID=2814
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>: entry count mismatch: nment = %d<entry-cnt>, found %i<entries>.
+>
+<MSGNUM=5522
+MSGID=upMSG184
+PROID=2816
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=        prev size = %i, cs = %i, ks = %i, is = %i, key count = %i.
+>
+<MSGNUM=5523
+MSGID=upMSG196
+PROID=2828
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>: index block %D<dbkey> has the wrong index number: %d<index-num>.
+>
+<MSGNUM=5524
+MSGID=upMSG197
+PROID=2829
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>: anchor block %D<dbkey> is not a root.  TOP %d<flag>, BOT %d<flag>.
+>
+<MSGNUM=5525
+MSGID=upMSG293
+PROID=4227
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index anchor table entry for index %d<Index Number> is invalid.
+>
+<MSGNUM=5526
+MSGID=upMSG372
+PROID=4423
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad compression size.
+>
+<MSGNUM=5527
+MSGID=upMSG373
+PROID=4424
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: zero key size in a non-leaf block.
+>
+<MSGNUM=5528
+MSGID=upMSG374
+PROID=4425
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad key size in a non-leaf block.
+>
+<MSGNUM=5529
+MSGID=upMSG375
+PROID=4426
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad info size in a non-leaf block.
+>
+<MSGNUM=5530
+MSGID=upMSG376
+PROID=4428
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad dummy key in a leaf block.
+>
+<MSGNUM=5531
+MSGID=upMSG377
+PROID=4429
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad key size in a leaf block.
+>
+<MSGNUM=5532
+MSGID=upMSG378
+PROID=4430
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=Index %d<index-num>, block %D<dbkey>, element no. %i<element-num>: bad info size in a leaf block.
+>
+<MSGNUM=5533
+MSGID=utFTL001
+PROID=290
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=I/O error <n>%i in <program>%s, ret <n>%i, file <n>%n, addr <n>%l.
+>
+<MSGNUM=5534
+MSGID=utFTL002
+PROID=291
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Insufficient disk space or Write access denied.
+>
+<MSGNUM=5535
+MSGID=utFTL003
+PROID=332
+FATAL=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Attempt to make a too long file-name.
+>
+<MSGNUM=5536
+MSGID=utFTL005
+PROID=303
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=** UNIX maximum file size exceeded. <program>%s.
+>
+<MSGNUM=5537
+MSGID=utFTL007
+PROID=354
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to open or create <filename>%s, error <number>%d.
+>
+<MSGNUM=5538
+MSGID=utFTL010
+PROID=163
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Seek error <value>%i, file <value>%i, addr <value>%l.
+>
+<MSGNUM=5539
+MSGID=utFTL011
+PROID=1082
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unspecified semaphore error
+>
+<MSGNUM=5540
+MSGID=utFTL016
+PROID=1083
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Number of private slots in segment table exhausted
+>
+<MSGNUM=5541
+MSGID=utFTL017
+PROID=1094
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Segment Control not initialized
+>
+<MSGNUM=5542
+MSGID=utFTL018
+PROID=1180
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unspecified shared memory error errno=%E
+>
+<MSGNUM=5543
+MSGID=utFTL019
+PROID=990
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Unable to clear semaphore in utsemadd(), error <n>%d.
+>
+<MSGNUM=5544
+MSGID=utFTL021
+PROID=1729
+FATAL=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to open tty devices errno = <errno>%E
+>
+<MSGNUM=5545
+MSGID=utFTL022
+PROID=1134
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Shared memory segment key %i does not exist
+>
+<MSGNUM=5546
+MSGID=utFTL023
+PROID=1174
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Invalid shared memory segment identifier
+>
+<MSGNUM=5547
+MSGID=utFTL024
+PROID=1136
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Shared memory access permission denied
+>
+<MSGNUM=5548
+MSGID=utFTL030
+PROID=2255
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=yes
+MSG=Incomplete microtransaction.
+>
+<MSGNUM=5549
+MSGID=utFTL032
+PROID=9227
+FATAL=yes
+COREDUMP=yes
+SHOWNUM=yes
+SYSERR=no
+MSG=Exiting.
+>
+<MSGNUM=5550
+MSGID=utMSG001
+PROID=293
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** "<file-name>%s" was not found.
+>
+<MSGNUM=5551
+MSGID=utMSG002
+PROID=294
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** You do not have permission to access <file-name>%s.
+>
+<MSGNUM=5552
+MSGID=utMSG003
+PROID=295
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Unable to access <file-name>%s.
+>
+<MSGNUM=5553
+MSGID=utMSG004
+PROID=296
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** Attempt to generate a file name which is too long.
+>
+<MSGNUM=5554
+MSGID=utMSG009
+PROID=463
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG="<file-name>%s" is a directory
+>
+<MSGNUM=5555
+MSGID=utMSG013
+PROID=6044
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The drive type could not be determined for %c<driveletter>:
+>
+<MSGNUM=5556
+MSGID=utMSG016
+PROID=551
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=unable to <acc/cr>%s semaphore set <db>%s:<ch>%c, errno <n>%d.
+>
+<MSGNUM=5557
+MSGID=utMSG021
+PROID=1081
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Too many users requested semaphore undo, increase SEMMNU.
+>
+<MSGNUM=5558
+MSGID=utMSG023
+PROID=1093
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Warning: only %i<num> wait semaphores are available.
+>
+<MSGNUM=5559
+MSGID=utMSG024
+PROID=1135
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid size of shared memory segment
+>
+<MSGNUM=5560
+MSGID=utMSG025
+PROID=1137
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum number of shared-memory identifiers exceeded.
+>
+<MSGNUM=5561
+MSGID=utMSG026
+PROID=1138
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=No more available shared-memory.
+>
+<MSGNUM=5562
+MSGID=utMSG027
+PROID=1172
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Shared-memory segment already exist for %s<database-name>.
+>
+<MSGNUM=5563
+MSGID=utMSG028
+PROID=1173
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid address to attach the shared memory segment
+>
+<MSGNUM=5564
+MSGID=utMSG029
+PROID=1175
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum number of shared-memory segments per process exceeded.
+>
+<MSGNUM=5565
+MSGID=utMSG030
+PROID=1176
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The data space of the process is not enough for the shm segment
+>
+<MSGNUM=5566
+MSGID=utMSG031
+PROID=1130
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Less than minimum number of semaphores available
+>
+<MSGNUM=5567
+MSGID=utMSG032
+PROID=1131
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Semaphore limit exceeded
+>
+<MSGNUM=5568
+MSGID=utMSG033
+PROID=1132
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid semaphore id
+>
+<MSGNUM=5569
+MSGID=utMSG034
+PROID=1133
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Semaphore operation permission denied.
+>
+<MSGNUM=5570
+MSGID=utMSG036
+PROID=1178
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The shared memory is version %i<num>; expected %i<num>
+>
+<MSGNUM=5571
+MSGID=utMSG037
+PROID=1179
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The shared memory does not have the correct MAGIC number
+>
+<MSGNUM=5572
+MSGID=utMSG040
+PROID=1075
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Semaphore id %d was removed
+>
+<MSGNUM=5573
+MSGID=utMSG044
+PROID=1260
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Shared memory in use by another process.
+>
+<MSGNUM=5574
+MSGID=utMSG051
+PROID=1187
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=The -hs <heapsize>%d value is too large. Parameter ignored.
+>
+<MSGNUM=5575
+MSGID=utMSG054
+PROID=1710
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to create a system semaphore <semname>%s; too many.
+>
+<MSGNUM=5576
+MSGID=utMSG056
+PROID=1712
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to find semaphore <semname>%s.
+>
+<MSGNUM=5577
+MSGID=utMSG058
+PROID=1714
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to request semaphore, error <n>%d.
+>
+<MSGNUM=5578
+MSGID=utMSG059
+PROID=1715
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to clear semaphore.
+>
+<MSGNUM=5579
+MSGID=utMSG062
+PROID=1719
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to create shared memory <shmname>%s, error <n>%d.
+>
+<MSGNUM=5580
+MSGID=utMSG063
+PROID=1720
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to attach shared memory <shmname>%s, error <n>%d.
+>
+<MSGNUM=5581
+MSGID=utMSG070
+PROID=1676
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=I/O error <n>%i in <program>%s, ret <n>%i, file <n>%n, addr <n>%l.
+>
+<MSGNUM=5582
+MSGID=utMSG082
+PROID=2247
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User %i died during 2phase commit
+>
+<MSGNUM=5583
+MSGID=utMSG083
+PROID=2248
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin normal shutdown
+>
+<MSGNUM=5584
+MSGID=utMSG084
+PROID=2249
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin ABNORMAL shutdown code %i
+>
+<MSGNUM=5585
+MSGID=utMSG086
+PROID=2251
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Destroyed user %i pid %s.
+>
+<MSGNUM=5586
+MSGID=utMSG087
+PROID=2252
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Begin transaction backout.
+>
+<MSGNUM=5587
+MSGID=utMSG088
+PROID=2253
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Transaction backout completed.
+>
+<MSGNUM=5588
+MSGID=utMSG090
+PROID=2256
+FATAL=no
+SHOWNUM=yes
+SYSERR=yes
+MSG=User %i died during microtransaction.
+>
+<MSGNUM=5589
+MSGID=utMSG092
+PROID=2257
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to open or create <filename>%s, error <number>%d.
+>
+<MSGNUM=5590
+MSGID=utMSG096
+PROID=2261
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Sending signal %d<signal number> to %d<num> connected user(s).
+>
+<MSGNUM=5591
+MSGID=utMSG098
+PROID=2263
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Resending shutdown request to %d<num> user(s).
+>
+<MSGNUM=5592
+MSGID=utMSG099
+PROID=2264
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Poll returned -1 , errno=%E<n>.
+>
+<MSGNUM=5593
+MSGID=utMSG111
+PROID=6267
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Semaphore table has not been created.
+>
+<MSGNUM=5594
+MSGID=utMSG112
+PROID=6268
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error in ReleaseSemaphore lastnum = <number>%d, error = <number>%d
+>
+<MSGNUM=5595
+MSGID=utMSG113
+PROID=6269
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error clearing semaphore, current value = <number>%d, return = <number>%d
+>
+<MSGNUM=5596
+MSGID=utMSG114
+PROID=6270
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Error incrementing semaphore, current value = <number>%d, error = <number>%d
+>
+<MSGNUM=5597
+MSGID=utMSG120
+PROID=8871
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to create new or open existing semaphore, error = <number>%d 
+>
+<MSGNUM=5598
+MSGID=utMSG121
+PROID=8872
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Shared memory in use by a process other than Gemini.
+>
+<MSGNUM=5599
+MSGID=utMSG149
+PROID=9144
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Shared memory size too large %lMB.
+>
+<MSGNUM=5600
+MSGID=utMSG150
+PROID=9145
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Maximum is %lMB, decrease the gemini_buffer_cache setting
+>
+<MSGNUM=5601
+MSGID=utMSG152
+PROID=9224
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unexpected internal error: %rPlease forward the following information to Nusphere technical support:
+>
+<MSGNUM=5602
+MSGID=utMSG153
+PROID=9225
+FATAL=no
+SHOWNUM=no
+SYSERR=no
+MSG=%d<id-tag>, %s<source-filename>, %d<source-line-number>, %d<return-value>
+>
+<MSGNUM=5603
+MSGID=utMSG154
+PROID=9226
+FATAL=no
+SHOWNUM=no
+SYSERR=no
+MSG=%s<text-to-be-displayed>
+>
+<MSGNUM=5604
+MSGID=utMSG155
+PROID=9228
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=End of internal error text.
+>
+<MSGNUM=5605
+MSGID=utMSG156
+PROID=9336
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Created shared memory with segment_id: %l<number>
+>
+<MSGNUM=5606
+MSGID=utMSG177
+PROID=2864
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Could not access mounted file system list, errno = %i.
+>
+<MSGNUM=5607
+MSGID=utMSG178
+PROID=4162
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=** UNIX maximum file size exceeded.  %s
+>
+<MSGNUM=5608
+MSGID=utMSG179
+PROID=4163
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Insufficient disk space.
+>
+<MSGNUM=5609
+MSGID=drMSG688
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Failed to open symbol file %s
+>
+<MSGNUM=5610
+MSGID=drMSG689
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Size of global transaction table (-maxxids): %l
+>
+<MSGNUM=5611
+MSGID=drMSG690
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Desired index block utilization invalid, changed from %l to %l
+>
+<MSGNUM=5612
+MSGID=drMSG691
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid Area #%i for object creation.
+>
+<MSGNUM=5613
+MSGID=drMSG692
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=dsmObjectCreate failed to get admin lock %l
+>
+<MSGNUM=5614
+MSGID=drMSG693
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Created Table %s, id %d
+>
+<MSGNUM=5615
+MSGID=drMSG694
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Created Index %s, id %d on table %d
+>
+<MSGNUM=5616
+MSGID=bkMSG154
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Unable to write object block to %s. %d
+>
+<MSGNUM=5617
+MSGID=bkMSG155
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=File %s is too small, fixing
+>
+<MSGNUM=5618
+MSGID=bkMSG156
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=File %s is smaller than the blocksize of %d
+>
+<MSGNUM=5619
+MSGID=bkMSG157
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Extent %s removed
+>
+<MSGNUM=5620
+MSGID=bkMSG158
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User requesting %i private read only buffers was allocated %i.
+>
+<MSGNUM=5621
+MSGID=bkMSG159
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=User requesting %i private read only buffers but none available.
+>
+<MSGNUM=5622
+MSGID=bkMSG160
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=userid of upgrade is %d
+>
+<MSGNUM=5623
+MSGID=bkMSG161
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Invalid buffer lock down grade %D %l
+>
+<MSGNUM=5624
+MSGID=bkMSG162
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Index Anchor not found for index %s
+>
+<MSGNUM=5625
+MSGID=bkMSG163
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=Dumping index anchor table
+>
+<MSGNUM=5626
+MSGID=bkMSG164
+PROID=9999
+FATAL=no
+SHOWNUM=yes
+SYSERR=no
+MSG=slot %d, name %s, root %d
+>
